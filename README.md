@@ -25,6 +25,18 @@
 
 4. Then open http://publisher.local:8100.
 
+## Run Keycloak
+
+In airavata ide-migration, run `docker-compose up`
+
+## Run Airavata Django portal
+
+```
+mkdir django_airavata/static/widget
+cd django_airavata/static/widget
+ln -s /path/to/airavata-3rd-party-widget-oauth2/widget.js
+```
+
 # Log
 
 ## 2020-05-02
@@ -34,4 +46,8 @@
 - created new client in Keycloak
     - Valid Redirect URI: http://publisher.local:8100/
     - Web Domain: http://publisher.local:8100/
+
+- following instructions here: https://www.keycloak.org/docs/4.8/securing_apps/index.html#_javascript_adapter
+
+
 
