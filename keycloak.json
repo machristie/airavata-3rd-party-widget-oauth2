@@ -1,0 +1,7 @@
+{
+  "realm": "default",
+  "auth-server-url": "https://airavata.host:8443/auth",
+  "ssl-required": "external",
+  "resource": "widget",
+  "public-client": true
+}
